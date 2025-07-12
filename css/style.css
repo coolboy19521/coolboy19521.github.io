@@ -9504,3 +9504,13 @@ textarea.form-control {
 #ftco-navbar.awake {
   background-color: #5b191d !important;
 }
+
+body {
+  overflow-x: hidden !important; /* Prevent horizontal scrolling */
+  overflow-y: scroll !important; /* Enable vertical scrolling */
+}
+
+html {
+  height: 100% !important;
+  -webkit-overflow-scrolling: touch !important;
+}
